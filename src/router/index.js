@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from 'vue-router'
-import IndexPage from "../pages";
-import Cards from "../pages/cards";
+import IndexPage from "../pages/index.vue";
+import Cards from "../pages/cards/index.vue";
 
 const routes = [
   { path: '/', component: IndexPage },
